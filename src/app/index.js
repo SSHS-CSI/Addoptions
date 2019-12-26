@@ -119,6 +119,7 @@ const App = () => {
         <div className={classes.root}>
             <CssBaseline />
             <AppBar onMenuClick={() => setIsDrawerOpen(true)} />
+            <AppBar toggleLogindialog={() => setIsClassDialogOpen(true)} />
             <Drawer open={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
             <Class
                 title="객체지향" open={isClassDialogOpen}

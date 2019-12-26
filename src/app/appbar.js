@@ -24,7 +24,7 @@ module.exports = ({onMenuClick, ...props}) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.mainBarTitle}>Jirung World</Typography>
-          <IconButton edge="end" color="inherit" className={classes.menu} onClick={onMenuClick}>
+          <IconButton edge="end" color="inherit" className={classes.menu} onClick={toggleLogindialog}>
             <AccountIcon />
           </IconButton>
         </Toolbar>
