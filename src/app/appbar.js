@@ -9,6 +9,7 @@ const MenuIcon = require("@material-ui/icons/Menu").default;
 const AccountIcon = require("@material-ui/icons/AccountCircle").default;
 const Typography = require("@material-ui/core/Typography").default;
 
+
 const useStyles = makeStyles(theme => ({
                                menu : {marginRight : theme.spacing()},
                                mainBarTitle : {flexGrow : 1}
@@ -24,8 +25,8 @@ module.exports = ({onMenuClick, ...props}) => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.mainBarTitle}>Jirung World</Typography>
-          <IconButton edge="end" color="inherit" className={classes.menu} onClick={toggleLogindialog}>
-            <AccountIcon />
+          <IconButton edge="end" color="inherit" className={classes.menu} onClick={onMenuClick}>
+          <AccountIcon />
           </IconButton>
         </Toolbar>
       </AppBar>);

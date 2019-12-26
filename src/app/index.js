@@ -86,23 +86,33 @@ const subjects = [{
     }, {
         name: "미적분학 I",
         subject: "수학",
-        classes: [{ times: [{
-            weekday: 1,
-            start: 3,
-            end: 4
+        classes: [ {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "김지애",
+            students: ["권현우", "안준서", "손현준"],
+            assignments: []
         }, {
-            weekday: 3,
-            start: 3,
-            end: 4
-        }] }, { times: [{
-            weekday: 2,
-            start: 3,
-            end: 4
-        }, {
-            weekday: 3,
-            start: 1,
-            end: 2
-        }] }]
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "노창균",
+            students: ["이재훈", "양승민", "김강현"],
+            assignments: []
+        }]
     }]
 }];
 
@@ -119,7 +129,6 @@ const App = () => {
         <div className={classes.root}>
             <CssBaseline />
             <AppBar onMenuClick={() => setIsDrawerOpen(true)} />
-            <AppBar toggleLogindialog={() => setIsClassDialogOpen(true)} />
             <Drawer open={isDrawerOpen} onClose={() => setIsDrawerOpen(false)} />
             <Class
                 title="객체지향" open={isClassDialogOpen}
