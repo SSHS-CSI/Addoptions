@@ -16,7 +16,8 @@ module.exports = ({
         <Table>
             <TableBody>
                 <TableRow>
-                    <TableCell component="th" scope="row" variant="head">제목</TableCell>
+                    <TableCell component="th" scope="row" variant="head">제목
+                    </TableCell>
                     <TableCell>{title}</TableCell>
                 </TableRow>
                 <TableRow>

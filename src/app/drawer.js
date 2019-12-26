@@ -13,6 +13,7 @@ const Typography = require("@material-ui/core/Typography").default;
 const SubjectIcon = require("@material-ui/icons/Subject").default;
 const ClassIcon = require("@material-ui/icons/Class").default;
 const AssignmentIcon = require("@material-ui/icons/Assignment").default;
+const FavoriteIcon = require("@material-ui/icons/favorite").default;
 
 const drawerWidth = 240;
 
@@ -62,6 +63,12 @@ module.exports = ({
                         <AssignmentIcon />
                     </ListItemIcon>
                     <ListItemText primary="과제" />
+                </ListItem>
+                <ListItem button>
+                    <ListItemIcon>
+                        <FavoriteIcon />
+                    </ListItemIcon>
+                    <ListItemText primary="급식메뉴" />
                 </ListItem>
             </List>
         </Drawer>
