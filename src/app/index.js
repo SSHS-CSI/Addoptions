@@ -112,6 +112,84 @@ const subjects = [{
             teacher: "노창균",
             students: ["이재훈", "양승민", "김강현"],
             assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "김지애",
+            students: ["권현우", "안준서", "손현준"],
+            assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "노창균",
+            students: ["이재훈", "양승민", "김강현"],
+            assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "김지애",
+            students: ["임유나", "김하늘", "양호진"],
+            assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "노창균",
+            students: ["유다진", "고상연", "허원석"],
+            assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "김지애",
+            students: ["정현서", "김어진", "김서진"],
+            assignments: []
+        }, {
+            times: [{
+                weekday: 3,
+                start: 3,
+                end: 4
+            }, {
+                weekday: 5,
+                start: 1,
+                end: 2
+            }],
+            teacher: "노창균",
+            students: ["김정환", "박영현", "고현수"],
+            assignments: []
         }]
     }]
 }];
